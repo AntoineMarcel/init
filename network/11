@@ -1,0 +1,7 @@
+Grace a la commande traceroute slash16.org, on voit que le nom et l'ip du materiel qui fait le lien entre nous et l'exterieur est "nat-1 (10.60.1.11)" 
+La commande nous montre :
+- 1 : Local IP
+- 2 : NAT IP
+- 3 : Public IP
+
+La ligne 1 correspond a notre IP locale, la ligne 2 au routeur NAT qui relie l'IP locale et l'exterieur.

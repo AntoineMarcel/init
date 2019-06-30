@@ -1,0 +1,7 @@
+Il faut modifier le fichier hosts pour faire pointer une adresse IP vers un domaine. (obligatoirement en ROOT car fichier disponible en unique lecture)
+Resultat attendu :
+    cat /etc/hosts
+    127.0.0.1       localhost
+    255.255.255.255 broadcasthost
+    ::1             localhost
+    45.19.122.85	  intra.42.fr

@@ -1,0 +1,3 @@
+On utilise la commande nslookup avec le resultat de l'IP qui nous a ete assignee par le serveur DHCP et on obtient notre nom de host
+(nslookup 10.11.11.20 | grep "name = " | awk '{print $4}')
+result : e1r11p20.42.fr

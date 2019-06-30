@@ -1,0 +1,3 @@
+Chercher le dossier etc/ et cat le fichier debian_version
+cat debian_version
+9.9

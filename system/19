@@ -1,0 +1,18 @@
+#systemctl list-unit-files --type=service | grep "enabled" | awk -F'.service' '{print $1}'
+autovt@
+console-setup
+cron
+getty@
+irqbalance
+keyboard-setup
+networking
+rsync
+rsyslog
+ssh
+sshd
+syslog
+systemd-timesyncd
+vboxadd
+vboxadd
+
+Type : deamon

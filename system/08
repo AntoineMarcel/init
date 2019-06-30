@@ -1,0 +1,2 @@
+Les clés autorisées a se connecter via SSH se trouvent dans le fichier
+~/.ssh/authorized_keys
