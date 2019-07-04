@@ -1,3 +1,3 @@
 #!/bin/bash
-USER=1
+USER=username
 sudo userdel -r -f $USER

@@ -1,1 +1,1 @@
-/usr/sbin/useradd <username>
+sudo /usr/sbin/useradd username
