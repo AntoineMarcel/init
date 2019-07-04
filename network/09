@@ -1,4 +1,4 @@
-Il faut utiliser la commande nslookup pour trouver l'IP publique de 42.(nslookup 42.fr 8.8.8.8)
-(163.172.250.12
+#nslookup 42.fr 8.8.8.8 | grep Address | grep -v "#" | awk '{print $2}'
+163.172.250.12
 163.172.250.13
-163.172.250.11)
+163.172.250.11
